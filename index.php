@@ -38,7 +38,7 @@ define('CACHE_PATH', 'cache/');     // 文件缓存目录,请确保该目录存�
 /*****************************************************************************************************/
 if(!defined('DEBUG') || DEBUG !== true) error_reporting(0); // 屏蔽服务器错误
 
-require_once('plugins/Meting.php');
+require_once('Meting.php');
 
 use Metowolf\Meting;
 
